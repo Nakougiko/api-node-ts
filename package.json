@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.12.0"
+  },
+  "name": "api-node-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc"
+  },
+  "author": "lukas goulois",
+  "license": "ISC",
+  "description": "projet api, au vu de mes études en licence pro",
+  "repository": {
+    "type": "git",
+    "url": "api-node-ts"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.9",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
